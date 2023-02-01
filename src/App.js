@@ -42,7 +42,7 @@ function App() {
   }
   return (
     <>
-    {/* <Router>
+    <Router>
     <Navbar title="TextUtils2" mode={mode} aboutText="About" toggleMode={toggleMode} />
       <Alert alert={alert}/>
       <div className="container">
@@ -58,10 +58,10 @@ function App() {
     
 
 </div>
-</Router> */}
-<Navbar title="TextUtils2" mode={mode} aboutText="About" toggleMode={toggleMode} />
+</Router>
+{/* <Navbar title="TextUtils2" mode={mode} aboutText="About" toggleMode={toggleMode} />
       <Alert alert={alert}/>
-      <TextForm showAlert={showAlert} fieldname="Enter Text" alert={alert} mode={mode} />
+      <TextForm showAlert={showAlert} fieldname="Enter Text" alert={alert} mode={mode} /> */}
 </>
    
           
